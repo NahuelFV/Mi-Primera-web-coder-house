@@ -1,0 +1,88 @@
+$color-naranja: orange;
+$relleno:10px;
+$color-negro: black ;
+$espacio-palabras:2px;
+$color-blanco:white;
+$nada:none;
+$alto:210px;
+$ancho:210px;
+$color-personalizado:#343353;
+
+p{
+    font-size: 30px;
+}
+
+body{
+    text-align: center;
+    background-color:#343353 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    width: $ancho;
+    height: $alto;
+}
+
+li{
+    list-style: $nada;
+    display: inline-block;
+    background-color: $color-personalizado;
+    padding: $relleno;
+    font-family: 'Anton', sans-serif;
+}
+
+.menu li{
+    list-style: $nada;
+    display: inline-block;
+    background-color: $color-personalizado;
+    padding: $relleno;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: $nada;
+    color: $color-blanco;
+}
+
+.menu a:hover{
+    background: $color-naranja;
+    padding: $relleno;
+    color: $color-blanco;
+    border-radius: 3vh;
+}
+
+.footer_redes li{
+    list-style: $nada;
+    display: inline-block;
+    background-color: #343353;
+    padding: $relleno;
+}
+
+.footer_redes a{
+    text-decoration: $nada;
+    color: $color-blanco;
+    letter-spacing: $espacio-palabras;
+}
+
+.footer_contenedor{
+    background-color: $color-negro;
+    width:99%; 
+    bottom: 0px;
+    position: fixed;
+}
+
+@each $color in white,black,yellow {
+    .#{$color}{
+        color:#{$color};
+    }
+}
+
+@each $tamaño in 30px {
+    .#{grande}{
+        font-size:#{$tamaño}
+    }
+    
+}
+

@@ -1,0 +1,336 @@
+.medio p{
+    font-size: 2rem;
+    display: inline-block;
+    margin: 120px;
+}
+.presupuesto{
+    padding: 20px;
+}
+
+.pre{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 2vh;
+}
+
+.medio span{
+    font-family: 'Anton', sans-serif;
+}
+
+p{
+    font-size: 40px;
+}
+
+.compu{
+    width: 412px;
+    height: 412px;
+}
+
+.contenedor_medio{
+    display: inline-flex;
+}
+
+/* menu de navegacion */
+.menu li{
+    list-style: none;
+    display: inline-block;
+    background-color: #343353;
+    padding: 10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    background: orange;
+    padding: 10px;
+    color: white;
+    border-radius: 3vh;
+}
+
+
+
+
+/*fondo de la pagina */
+.contenedor_inicio{
+    text-align: center;
+    background-color:#343353 ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+
+/*footer redes */
+
+.footer_redes li{
+    list-style: none;
+    display: inline-block;
+    background-color: #343353;
+    padding: 10px;
+}
+
+.footer_redes a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.footer_contenedor{
+    background-color: black;
+    width:99%; 
+    bottom: 0px;
+    position: fixed;
+}
+/* menu sobre mi */
+
+.menu_dos li{
+    list-style: none;
+    display: inline-block;
+    background-color: #343353;
+    padding: 10px;
+    font-family: 'Anton', sans-serif;
+}
+
+.menu_dos a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu_dos a:hover{
+    background: orange;
+    padding: 10px;
+    color: white;
+    border-radius: 3vh;
+}
+
+/*fondo de la pagina sobre mi */
+.contenedor_dos{
+    text-align: center;
+    background-color:#343353 ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.avatar{
+    width: 210px;
+    height: 210px;
+}
+
+/* menu contacto */
+.menu_tres li{
+    list-style: none;
+    display: inline-block;
+    background-color: #343353;
+    padding: 10px;
+    font-family: 'Anton', sans-serif;
+}
+
+.menu_tres a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu_tres a:hover{
+    background: orange;
+    padding: 10px;
+    color: white;
+    border-radius: 3vh;
+}
+
+/*fondo de la pagina contacto */
+.contenedor_tres{
+    text-align: center;
+    
+    background-color:#343353 ;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+/* logo*/
+.logo{
+    width: 165px;
+    height: 165px;
+    
+}
+
+/* Portfolio */
+/* Galeria de miniaturas */
+.galeria h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.cards {
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    max-height: 100vh;
+    align-content: center;
+}
+
+
+.cards img {
+    margin: 24px;
+    border: 5px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+    max-width: 24vw;
+}
+
+.cards img:hover{
+    transform: scale(1.5);
+}
+
+
+/* css grids */
+.contenedor_tres{
+    display: grid;
+    row-gap:  10px;
+}
+
+.contenedor_inicio{
+    display: grid;
+    row-gap: 10px;
+}
+
+/* mobiel firts */
+
+@media only screen and (max-width:600px){
+
+    .footer_contenedor{
+        width:99%;
+        font-size: 35px;
+        bottom: 0px;
+        position: fixed;
+    }
+    main{
+        margin-top: 200px;
+        margin-bottom: 200px;
+    }
+    header{
+        font-size: 40px;
+    }
+
+    .presupuesto{
+        font-size: 30px;
+        margin-top: 40px;
+    }
+
+    .medio p{
+        font-size: 40px;
+        margin: 0px;
+    }
+
+    .menu li{
+        font-size: 45px;
+    }
+
+    .logo{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* TITULOS PORFOLIO */
+
+.galeria h2{
+    text-decoration: underline black;
+    color: white;
+    background: linear-gradient(270deg, #3d0a78, #bad718);
+}
+
+
+/*carrucel*/
+
+.webUno{
+    height: 500px;
+    
+}
+
+.webDos{
+    height: 500px;
+
+}
+
+.webTres{
+    height: 500px;
+}
+
+
+/*PAGINA SERVICIOS */
+
+.servi h1{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 1.2px;
+    text-align: left;
+}
+
+.servi p{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.servi p{
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.mini{
+    list-style: none;
+}
+
+.mini,li{
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+.containerTodo{
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.caja_todo{
+    margin-left:auto;
+    margin-right:auto;
+    color: white;
+}
+
+.serviDos{
+    text-align: left;
+}
+
+.serviDos p{
+    font-size: 16px;
+}
+
+.todas_cajas p{
+    font-size: 20px;
+}
+
+
+/* contactame */
+.contactame_contenedor p{
+    font-size: 25px;
+    padding: 20px;
+
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+
+}
+
