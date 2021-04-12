@@ -61,7 +61,17 @@ p{
     text-align: center;
     background-color:#343353 ;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 99%;
+    height: 100%;
+    background-size: cover;
+}
+
+/*fondo de la pagina mis servicios */
+.contenedor_inicio_dos{
+    text-align: center;
+    background-color:#343353 ;
+    background-repeat: no-repeat;
+    width: 99%;
     height: 100%;
     background-size: cover;
 }
