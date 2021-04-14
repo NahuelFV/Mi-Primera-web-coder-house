@@ -125,7 +125,11 @@ p{
     text-align: center;
     background-color:#343353 ;
     background-repeat: no-repeat;
+    width: 99%;
+    height: 100%;
     background-size: cover;
+    display: grid;
+    row-gap: 10px;
 }
 
 .avatar{
@@ -344,3 +348,16 @@ h2{
 
 }
 
+/* SOBRE MI */
+.titulo_C{
+    color: white;
+}
+
+.caja_Todo h3{
+    font-size: 30px;
+}
+
+.caja_Todo{
+    width: 100%;
+    height: 80%;
+}
