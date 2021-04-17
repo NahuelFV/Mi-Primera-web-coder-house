@@ -24,29 +24,45 @@
     </header>
     <main>
 <!--CONTACTAME-->
-            <h2>CONTACTO</h2>
-            <div class="contactame_contenedor">
-                <p>Asumo que ya recorriste mi página, y que si estás acá es porque buscás más información sobre mis servicios.</p>
-                <p>Cualquier otra cosa que quieras decirme, preguntarme, sugerirme, podés usar este formulario.
+<div class="content">
 
+    <h1 class="logo_Dos">Contacto</h1>
+
+    <div class="contact-wrapper animated bounceInUp">
+        <div class="contact-form">
+            <form action="">
+                <p>
+                    <label>Nombre Completo</label>
+                    <input type="text" name="fullname">
                 </p>
-            </div>
-            
-            <form class="contactame_main_form">
-                
-                <div class="contactame_name">
-                    <label for="name">
-                        <input id="name" type="text" placeholder="Nombre">
-                    </label>
-                    <label for="email">
-                        <input id="email" type="email" placeholder="Email">
-                    </label>
-                </div>
-                    <label for="comment">
-                        <textarea id="comment"  placeholder="Tu mensaje"></textarea>
-                    </label>
-                <button type="submit">Enviar</button>
+                <p>
+                    <label>Correo</label>
+                    <input type="email" name="email">
+                </p>
+                <p>
+                    <label>Numero De Telefono</label>
+                    <input type="tel" name="phone">
+                </p>
+                <p class="block">
+                <label>Mensaje</label> 
+                    <textarea name="message" rows="3"></textarea>
+                </p>
+                <p class="block">
+                    <button>
+                        Enviar
+                    </button>
+                </p>
             </form>
+        </div>
+        <div class="contact-info">
+            <p>Asumo que ya recorriste mi página, y que si estás acá es porque buscás más información sobre mis servicios.
+            <br>
+                Cualquier otra cosa que quieras decirme, preguntarme, sugerirme, podés usar este formulario.</p>
+            <p>Fv Estudio</p>
+        </div>
+    </div>
+
+</div>
     </main>
     <!--pie de pagina-->
     <footer class="footer_contenedor">
