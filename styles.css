@@ -284,6 +284,12 @@ ol{
     .contac_main{
         margin-top: 0%;
     }
+    .portfolio{
+        margin-top: 0%;
+    }
+    .cards img{
+        max-width: 38vw;
+    }
 }
 
 /* TITULOS PORFOLIO */
