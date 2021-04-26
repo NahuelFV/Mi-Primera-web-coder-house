@@ -147,7 +147,7 @@ ol{
 
 .presentacion p{
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.603);
     border-radius: 20px;
 }
 /* menu contacto */
@@ -512,4 +512,22 @@ h2{
     .contact-info p {
         text-align: left;
     }
+}
+
+/* servicios caja */
+
+.caja_servicio{
+    background-color: rgba(0, 0, 0, 0.562);
+    width: 100%;
+    border-radius: 38px;
+    padding: 1%;
+    margin: 1%;
+}
+
+.caja_servicio p{
+    color: white;
+}
+
+.caja_servicio h3{
+    text-decoration: underline black;
 }
