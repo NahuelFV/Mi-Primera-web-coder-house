@@ -291,6 +291,20 @@ ol{
     .menu_tres{
         padding: 0%;
     }
+    .contenedor_medio{
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .inicio_Laps{
+        margin-top: 0%;
+    }
+    .menu img{
+        width: 0%;
+        height: 0%;
+    }
+    .menu{
+        margin:0%;
+    }
 }
 
 /* TITULOS PORFOLIO */
