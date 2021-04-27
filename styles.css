@@ -232,7 +232,7 @@ ol{
 
     .footer_contenedor{
         width: 100%;
-        font-size: 35px;
+        
         bottom: 0px;
         position: fixed;
     }
@@ -275,9 +275,7 @@ ol{
     .menu{
         padding: 0%;
     }
-    .footer_redes{
-        margin: 3%;
-    }
+    
     .menu_cuatro{
         padding: 0%;
     }
@@ -289,6 +287,9 @@ ol{
     }
     .cards img{
         max-width: 38vw;
+    }
+    .menu_tres{
+        padding: 0%;
     }
 }
 
