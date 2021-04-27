@@ -247,7 +247,7 @@ ol{
     }
 
     .menu li{
-        font-size: 30px;
+        font-size: 29px;
     }
 
     .logo{
@@ -288,16 +288,11 @@ ol{
         display: inline-flex;
         flex-direction: column;
     }
-    .inicio_Laps{
-        margin-top: 0%;
-    }
     .menu img{
         width: 0%;
         height: 0%;
     }
-    .menu{
-        margin:0%;
-    }
+
 }
 
 /* TITULOS PORFOLIO */
