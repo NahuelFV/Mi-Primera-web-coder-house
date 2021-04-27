@@ -236,16 +236,10 @@ ol{
         bottom: 0px;
         position: fixed;
     }
-    main{
-        margin-bottom: 200px;
-    }
     
     .presupuesto{
         font-size: 30px;
         margin-top: 40px;
-    }
-    .medio{
-        margin: -3%;
     }
     .medio p{
         font-size: 40px;
